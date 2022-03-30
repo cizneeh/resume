@@ -14,6 +14,7 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 ## Socials
 - [Twitter](https://twitter.com/cizneeh)
 - [Zenn](https://zenn.dev/cizneeh)
+- [GitHub](https://github.com/cizneeh)
 
 ## Skills
 
