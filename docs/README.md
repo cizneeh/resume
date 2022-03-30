@@ -1,4 +1,4 @@
-# 越前 信次郎の職務経歴書
+# 職務経歴書
 
 View on [GitHub Pages](https://cizneeh.github.io/resume/)
 
