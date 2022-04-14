@@ -29,10 +29,10 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 JavaScript(ES6+), TypeScript, Swift, Kotlin
 
 ### フレームワーク、ライブラリ
-Express, Mongoose, React, Jest
+Express, React, Jest
 
 ### その他
-Node.js, MongoDB, Docker, Nginx, AWS, Git, Github
+Node.js, MongoDB, Mongoose, Docker, Nginx, AWS, Git, Github
 
 ## 言語
 - 日本語：ネイティブ
