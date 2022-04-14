@@ -26,24 +26,13 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 ## 技術スタック
 
 ### プログラミング言語
-- JavaScript(ES6+)
-- TypeScript
-- Swift
-- Kotlin
+JavaScript(ES6+), TypeScript, Swift, Kotlin
 
 ### フレームワーク、ライブラリ
-- Express
-- Mongoose
-- React
-- Jest
+Express, Mongoose, React, Jest
 
 ### その他
-- Node.js
-- MongoDB
-- Docker
-- Nginx
-- AWS
-- Git, Github
+Node.js, MongoDB, Docker, Nginx, AWS, Git, Github
 
 ## 言語
 - 日本語：ネイティブ
@@ -62,6 +51,7 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
   - Node.js + wsを使ったWebSocketサーバー開発（チャット機能）
   - Swift, Kotlinでのモバイルアプリ新機能開発・テスト自動化
   - 開発・本番環境へのDocker導入、インフラ整備
+  - React + Typescriptでの新サービスプロトタイプ開発
   - 社内勉強会の企画、発表
 
 Web開発については初心者の状態で入社しましたが、学生時代に培ったコンピューターサイエンスの基礎知識と学習能力を活かして素早くキャッチアップできました。
