@@ -15,24 +15,25 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 - [Twitter](https://twitter.com/cizneeh)
 - [Zenn](https://zenn.dev/cizneeh)
 - [GitHub](https://github.com/cizneeh)
+- [Blog](https://cizneeh.me/)
 
 ## Skills
 
 - Node.js + Expressでのバックエンド設計・開発
-- React + Typescriptでのフロントエンド開発
+- React + Typescript (+Next.js)でのフロントエンド開発
 - Swift, Kotlinでのモバイル開発
 - 勉強会、社内学習コミュニティの形成
 
 ## 技術スタック
 
 ### プログラミング言語
-JavaScript(ES6+), TypeScript, Swift, Kotlin
+JavaScript(ES2015+), TypeScript, Swift, Kotlin
 
 ### フレームワーク、ライブラリ
-Express, React, Jest
+Express, React, Next.js, Jest, Electron
 
 ### その他
-Node.js, MongoDB, Mongoose, Docker, Nginx, AWS, Git, Github
+Node.js, MongoDB, Docker, Nginx, AWS, Git, Github
 
 ## 言語
 - 日本語：ネイティブ
@@ -45,13 +46,15 @@ Node.js, MongoDB, Mongoose, Docker, Nginx, AWS, Git, Github
 社員の所在管理サービス ZAiSEKI の開発・運用 
 - チーム規模: 5人
 - **役割**：
-  - コーディング、コードレビュー、インフラ・開発環境整備
+  - コーディング、コードレビュー、API設計、インフラ・開発環境整備
 - **業務内容**
   - Node.js + Express + MongoDB(Mongoose)でのバックエンドAPI開発
-  - Node.js + wsを使ったWebSocketサーバー開発（チャット機能）
-  - Swift, Kotlinでのモバイルアプリ新機能開発・テスト自動化
+  - Node.jsを使ったWebSocketサーバー開発（チャット機能）
+  - APIサーバー・WebSocketサーバーのパフォーマンステストとチューニング
+  - Swift, Kotlinでのモバイルアプリ保守・テスト自動化
   - 開発・本番環境へのDocker導入、インフラ整備
   - React + Typescriptでの新サービスプロトタイプ開発
+  - Electronを利用した社内ツール開発
   - 社内勉強会の企画、発表
 
 Web開発については初心者の状態で入社しましたが、学生時代に培ったコンピューターサイエンスの基礎知識と学習能力を活かして素早くキャッチアップできました。
@@ -63,6 +66,10 @@ Web開発については初心者の状態で入社しましたが、学生時�
 ## 業務外活動
 
 ### 技術記事投稿
+
 - **Zenn**
   - 2022/03 より投稿開始。
   - https://zenn.dev/cizneeh
+
+### 個人開発
+- [個人ブログ](https://cizneeh.me/)
