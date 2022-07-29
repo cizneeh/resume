@@ -1,0 +1,16 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Shinjiro Echizen's Resume",
+  "scripts": {
+    "pdf": "md-to-pdf docs/README.md --config-file ./pdf-options/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cizneeh/resume.git"
+  },
+  "author": "Shinjiro Echizen",
+  "dependencies": {
+    "md-to-pdf": "^5.1.0"
+  }
+}
