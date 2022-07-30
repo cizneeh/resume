@@ -20,7 +20,7 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 ## スキル
 
 - Node.js + ExpressでのバックエンドAPI設計・開発
-- React + Typescript (+Next.js)でのフロントエンド開発
+- React + TypeScript (+Next.js)でのフロントエンド開発
 - Swift, Kotlinでのモバイル開発
 - 勉強会、社内学習コミュニティの形成
 
