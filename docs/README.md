@@ -55,7 +55,7 @@ Node.js, MongoDB, Docker, nginx, AWS, Git, Github
   - APIサーバー・WebSocketサーバーのパフォーマンステストとチューニング
   - Swift, Kotlinでのモバイルアプリ保守・テスト自動化
   - 開発・本番環境へのDocker導入、インフラ整備
-  - React + Typescriptでの新サービスプロトタイプ開発
+  - React + TypeScriptでの新サービスプロトタイプ開発
   - Electronを利用した社内ツール開発
   - 社内勉強会の企画、発表
 
