@@ -33,7 +33,7 @@ JavaScript(ES2015+), TypeScript, Swift, Kotlin
 Express, React, Next.js, Jest, Electron
 
 ### その他
-Node.js, MongoDB, Docker, Nginx, AWS, Git, Github
+Node.js, MongoDB, Docker, nginx, AWS, Git, Github
 
 ## 言語
 - 日本語：ネイティブ
