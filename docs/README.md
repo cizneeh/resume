@@ -54,9 +54,9 @@ Node.js, MongoDB, Docker, nginx, AWS, Git, Github
   - Node.jsを使ったWebSocketサーバー開発（チャット機能）
   - APIサーバー・WebSocketサーバーのパフォーマンステストとチューニング
   - Swift, Kotlinでのモバイルアプリ保守・テスト自動化
-  - 開発・本番環境へのDocker導入、インフラ整備
   - React + TypeScriptでの新サービスプロトタイプ開発
   - Electronを利用した社内ツール開発
+  - 開発・本番環境へのDocker導入、インフラ整備
   - 社内勉強会の企画、発表
 
 Web開発については初心者の状態で入社しましたが、学生時代に培ったコンピューターサイエンスの基礎知識と学習能力を活かして素早くキャッチアップできました。
