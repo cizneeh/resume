@@ -30,7 +30,7 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 JavaScript(ES2015+), TypeScript, Swift, Kotlin
 
 ### フレームワーク、ライブラリ
-Express, React, Next.js, Jest, Electron
+React, Next.js, Express, Jest, Electron
 
 ### その他
 Node.js, MongoDB, Docker, nginx, AWS, Git, Github
@@ -43,6 +43,9 @@ Node.js, MongoDB, Docker, nginx, AWS, Git, Github
   - 口頭、文章共に英語での議論や意見交換を行うことができる
 
 ## 職務経歴詳細
+
+### 株式会社TERASS（2022/12～現在）
+Webサービス開発
 
 ### ネットコムBB株式会社（2021/04〜2022/09）
 社員の所在管理サービス ZAiSEKI の開発・運用 
