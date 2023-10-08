@@ -1,0 +1,17 @@
+on:
+  schedule:
+    # Run at 00:00 (JST) on the 1st day of January and July
+    - cron: '0 15 1 1,7 *'
+
+name: Create resume update issue every 6 months
+permissions:
+  contents: read
+  issues: write
+jobs:
+  stuff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
