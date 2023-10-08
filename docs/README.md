@@ -19,25 +19,28 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 
 ## スキル
 
-- Node.js + ExpressでのバックエンドAPI設計・開発
-- React + TypeScript (+Next.js)でのフロントエンド開発
-- Swift, Kotlinでのモバイル開発
+- React, TypeScript（+Next.js）を使ったフロントエンド開発（1年）
+- Firebase, GCPを使ったバックエンド、インフラ構築（1年）
+- Node.js + Express + MongoDBでのバックエンドAPI設計・開発（1年半）
+- Swift, Kotlinでのモバイル開発（1年半）
 - 勉強会、社内学習コミュニティの形成
 
 ## 技術スタック
 
-### プログラミング言語
-JavaScript(ES2015+), TypeScript, Swift, Kotlin
+### プログラミング言語（得意な順）
+TypeScript, JavaScript(ES2015+), Swift, Kotlin
 
-### フレームワーク、ライブラリ
-React, Next.js, Express, Jest, Electron
+### フレームワーク、ライブラリ（得意な順）
+React, Next.js, Vitest, Jest, Express, Electron
 
+### インフラ、DB（得意な順）
+Firebase, GCP（Cloud Run, Cloud Functions）, MongoDB
 ### その他
-Node.js, MongoDB, Docker, nginx, AWS, Git, Github
+Node.js, Vite, Docker, nginx, Git, GitHub
 
 ## 言語
 - 日本語：ネイティブ
-- 英語：ビジネス初級
+- 英語：ビジネスレベル
   - TOEIC960点 
   - 英語で書かれたドキュメントを、日本語と遜色ない速度で読むことができる
   - 口頭、文章共に英語での議論や意見交換を行うことができる
@@ -45,13 +48,47 @@ Node.js, MongoDB, Docker, nginx, AWS, Git, Github
 ## 職務経歴詳細
 
 ### 株式会社TERASS（2022/12～現在）
-Webサービス開発
+
+#### SUUMO, athomeなど複数の不動産ポータルサイトへの一括掲載を行う社内システムの新規開発
+- チーム規模: 5人（PdM1 + エンジニア4）
+- **役割**
+  - コーディング、コードレビュー
+  - 一部機能の設計
+- **業務内容**
+  - TypeScript, React(+Recoil, react-hook-form), Chakra UIを使ったフロントエンド開発
+  - Firebase(Firestore + Cloud Functions for Firestore)を使ったバックエンド開発
+  - Firebase Emulatorを使ったローカル開発環境の構築, DXの改善
+  - Firebase Emulatorを使った自動テスト基盤の構築
+  - GitHub Actions, Turborepoを用いたCI/CDの構築
+
+物件情報をフォームに入力すると、同じ情報でSUUMO, athomeなど複数の不動産ポータルサイトへの出稿を行える社内システムの新規開発を行いました。
+
+フロントエンド開発においては、フォームには200を超える入力項目があったため、パフォーマンスの最適化や途中保存機能、フォーム内のナビゲーションといったユーザー体験の向上が大きな課題となりました。
+
+バックエンドにはFirebaseを利用しており、Firebase Emulatorを用いたローカル開発環境の構築、自動テスト、CI/CDの構築など、DevOps的な作業も積極的に行いました。用意した環境とツールセットはチームメンバーによく受け入れられ、開発が快適になったと感謝の声を貰いました。
+
+テストについては初めは全く用意されていない状態でしたが、自動テストの構築に以前から興味があったこともあり、自らテスト基盤の用意を進め、最終的にはカバレッジ80%以上を達成しました。この取り組みと成果はのちに社内で発表を行い、社内のテスト文化普及に貢献しました。
+
+#### 不動産エージェントと不動産売買をしたいカスタマーをマッチングするサービス[TERASS Offer](https://offer.terass.com/)の保守・新機能開発
+- チーム規模: 4人（PdM1 + エンジニア3）
+- **役割**
+  - コーディング、コードレビュー
+  - 新機能の仕様策定、設計
+- **業務内容**
+  - TypeScript, React(+Redux), styled-component, Storybookを使ったフロントエンド開発
+  - Firebase(Firestore + Cloud Functions for Firestore)を使ったバックエンド開発
+
+入社した段階ですでに運用されていたプロダクトの保守、新機能開発を行いました。
+React, Firebaseのキャッチアップを素早く行い、入社2日目からバグ修正の対応を行いました。
 
 ### ネットコムBB株式会社（2021/04〜2022/09）
-社員の所在管理サービス ZAiSEKI の開発・運用 
+
+#### 社員の所在管理サービス ZAiSEKI の開発・運用 
 - チーム規模: 5人
 - **役割**：
-  - コーディング、コードレビュー、API設計、インフラ・開発環境整備
+  - コーディング、コードレビュー
+  - API設計
+  - インフラ・開発環境整備
 - **業務内容**
   - Node.js + Express + MongoDB(Mongoose)でのバックエンドAPI開発
   - Node.jsを使ったWebSocketサーバー開発（チャット機能）
