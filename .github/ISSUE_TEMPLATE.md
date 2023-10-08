@@ -1,5 +1,5 @@
 ---
-title: 履歴書更新: {{ date | date('YYYY/MM') }}
+title: 履歴書更新 {{ date | date('YYYY/MM') }}
 assignees: cizneeh
 ---
 
