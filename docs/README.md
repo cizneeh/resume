@@ -2,7 +2,7 @@
 
 View on [GitHub Pages](https://cizneeh.github.io/resume/)
 
-## 基本情報
+# 基本情報
 
 | key      | value                                |
 | -------- | ------------------------------------ |
@@ -11,14 +11,14 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 | 居住地   | 東京都                               |
 | 最終学歴 | 早稲田大学 基幹理工学部 情報通信学科 |
 
-## 各種リンク
+# 各種リンク
 
 - [Twitter](https://twitter.com/cizneeh)
 - [Zenn](https://zenn.dev/cizneeh)
 - [GitHub](https://github.com/cizneeh)
 - [Web サイト](https://cizneeh.me/)
 
-## スキル
+# スキル
 
 - React, TypeScript を使った SPA 開発（2 年）
 - Firebase を使ったアプリケーション開発（2 年）
@@ -31,25 +31,25 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 - コンピューターサイエンスの知識（アルゴリズム、データ構造、ネットワーク、OS など）
 - 勉強会、社内学習コミュニティの形成
 
-## 技術スタック
+# 技術スタック
 
-### プログラミング言語（得意な順）
+## プログラミング言語（得意な順）
 
 TypeScript, JavaScript(ES2015+), Swift, Kotlin
 
-### フレームワーク、ライブラリ（得意な順）
+## フレームワーク、ライブラリ（得意な順）
 
 React, Next.js, Vitest, Jest, Express, Electron
 
-### インフラ、DB（得意な順）
+## インフラ、DB（得意な順）
 
 Firebase（Firestore, Firebase Functions, Firebase Authentication）, GCP（Cloud Run, Cloud Functions, BiqQuery）, MongoDB
 
-### その他
+## その他
 
 Node.js, Vite, Docker, nginx, Git, GitHub
 
-## 言語
+# 言語
 
 - 日本語：ネイティブ
 - 英語：ビジネスレベル
@@ -57,11 +57,11 @@ Node.js, Vite, Docker, nginx, Git, GitHub
   - 英語で書かれたドキュメントを、日本語と遜色ない速度で読み、理解することができる
   - 口頭、文章共に英語での議論や意見交換を行うことができる
 
-## 職務経歴詳細
+# 職務経歴詳細
 
-### 株式会社 TERASS（2022/12 ～現在）
+## 株式会社 TERASS（2022/12 ～現在）
 
-#### SUUMO, athome など複数の不動産ポータルサイトへの一括掲載を行う社内システムの新規開発
+### SUUMO, athome など複数の不動産ポータルサイトへの一括掲載を行う社内システムの新規開発
 
 - チーム規模: 5 人（PdM1 + エンジニア 2~4）
 - **役割**
@@ -97,7 +97,7 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 
 また、ユーザーインターフェースとして Slack アプリを開発し、管理者が手動でプロジェクトを作成する手間を省きました。
 
-#### 不動産エージェントと不動産売買をしたいカスタマーをマッチングするサービス[TERASS Offer](https://offer.terass.com/)の保守・新機能開発
+### 不動産エージェントと不動産売買をしたいカスタマーをマッチングするサービス[TERASS Offer](https://offer.terass.com/)の保守・新機能開発
 
 - チーム規模: 4 人（PdM1 + エンジニア 2~3）
 - **役割**
@@ -110,9 +110,9 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 入社した段階ですでに運用されていたプロダクトの保守、新機能開発を行いました。
 React, Firebase のキャッチアップを素早く行い、入社 2 日目からバグ修正の対応を行いました。
 
-### ネットコム BB 株式会社（2021/04〜2022/09）
+## ネットコム BB 株式会社（2021/04〜2022/09）
 
-#### 社員の所在管理サービス ZAiSEKI の開発・運用
+### 社員の所在管理サービス ZAiSEKI の開発・運用
 
 - チーム規模: 5 人
 - **役割**：
@@ -135,14 +135,14 @@ Web 開発については初心者の状態で入社しましたが、学生時�
 途中、アプリケーションの仕様変更で本番環境への Docker 導入が必要となりましたが、当時チームに Docker の本番環境での運用経験のあるメンバーがいなかったため、私が手をあげて一人で導入を行いました。
 導入後、Docker 基礎知識や導入時の技術的課題の解決などをテーマとした勉強会の企画・発表を行い、社内の技術スタックアップデートへの貢献を行いました。
 
-## 業務外活動
+# 業務外活動
 
-### 技術記事投稿
+## 技術記事投稿
 
 - **Zenn**
   - 2022/03 より投稿開始。
   - https://zenn.dev/cizneeh
 
-### 個人開発
+## 個人開発
 
 - [個人ブログ](https://cizneeh.me/)
