@@ -70,6 +70,7 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 - **業務内容**
   - TypeScript, React(+Recoil, react-hook-form), Chakra UI を使ったフロントエンド開発
   - Firebase(Firestore + Cloud Functions for Firestore)を使ったバックエンド開発
+  - PM, PdM と連携、意見交換をしながらの仕様策定
   - Firebase Emulator を使ったローカル開発環境の構築, DX の改善
   - Firebase Emulator を使った自動テスト基盤の構築
     - https://zenn.dev/terass_dev/articles/firebase-functions-test
