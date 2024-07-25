@@ -1,7 +1,5 @@
 # 職務経歴書
 
-View on [GitHub Pages](https://cizneeh.github.io/resume/)
-
 # 基本情報
 
 | key      | value                                |
