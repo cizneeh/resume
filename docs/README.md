@@ -20,8 +20,8 @@ View on [GitHub Pages](https://cizneeh.github.io/resume/)
 
 # スキル
 
-- React, TypeScript を使った SPA 開発（2 年）
-- Firebase を使ったアプリケーション開発（2 年）
+- React, TypeScript を使った SPA 開発（3 年）
+- Firebase を使ったアプリケーション開発（3 年）
 - GCP を使ったインフラ構築（2 年）
 - 少人数（2, 3 人）でのプロジェクトのリード経験
 - Next.js（App Router） を使ったアプリケーション開発（個人開発）
@@ -109,8 +109,7 @@ Node.js, Vite, Docker, nginx, Git, GitHub
   - Firebase(Firestore + Cloud Functions for Firestore)を使ったバックエンド開発
   - PM, PdM と連携、意見交換をしながらの仕様策定
 
-入社した段階ですでに運用されていたプロダクトの保守、新機能開発を行いました。
-React, Firebase のキャッチアップを素早く行い、入社 2 日目からバグ修正の対応を行いました。
+プロダクトの保守、新機能開発を行いました。歴史が比較的長いプロダクトだったため、適宜リファクタを行いながら保守・開発を行いました。
 
 ---
 
