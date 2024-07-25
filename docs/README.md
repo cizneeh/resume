@@ -107,6 +107,7 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 - **業務内容**
   - TypeScript, React(+Redux、後に zustand に置き換え), styled-component, Storybook を使ったフロントエンド開発
   - Firebase(Firestore + Cloud Functions for Firestore)を使ったバックエンド開発
+  - PM, PdM と連携、意見交換をしながらの仕様策定
 
 入社した段階ですでに運用されていたプロダクトの保守、新機能開発を行いました。
 React, Firebase のキャッチアップを素早く行い、入社 2 日目からバグ修正の対応を行いました。
