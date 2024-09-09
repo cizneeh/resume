@@ -35,13 +35,13 @@
 
 TypeScript, JavaScript(ES2015+), Swift, Kotlin
 
-## フレームワーク、ライブラリ（得意な順）
+## フレームワーク、ライブラリ
 
 React, Next.js, Vitest, Jest, Express, Electron
 
-## インフラ、DB（得意な順）
+## インフラ
 
-Firebase（Firestore, Firebase Functions, Firebase Authentication）, GCP（Cloud Run, Cloud Functions, BiqQuery）, MongoDB
+Firebase（Firestore, Firebase Functions, Firebase Authentication）, GCP（Cloud Run, Cloud Functions, Cloud Tasks, BiqQuery）, MongoDB
 
 ## その他
 
@@ -61,6 +61,8 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 
 ### SUUMO, athome など複数の不動産ポータルサイトへの一括掲載を行う社内システムの新規開発
 
+物件情報をフォームに入力すると、同じ情報で SUUMO, athome など複数の不動産ポータルサイトへの出稿を行える社内用システム（通称：コンバーター）の新規開発を行いました。
+
 - チーム規模: 5 人（PdM1 + エンジニア 2~4）
 - **役割**
   - コーディング、コードレビュー
@@ -74,8 +76,6 @@ Node.js, Vite, Docker, nginx, Git, GitHub
     - https://zenn.dev/terass_dev/articles/firebase-functions-test
   - GitHub Actions, Turborepo を用いた CI/CD の構築
 
-物件情報をフォームに入力すると、同じ情報で SUUMO, athome など複数の不動産ポータルサイトへの出稿を行える社内用システム（通称：コンバーター）の新規開発を行いました。
-
 フロントエンド開発においては、フォームには 200 を超える入力項目があったため、パフォーマンスの最適化や途中保存機能、フォーム内のナビゲーションといったユーザー体験の向上が大きな課題となりましたが、最適なフックの実装やメモ化を用いて可能な限り最適化を行いながら開発しました。
 
 ### GCP のサンドボックスプロジェクトを社員に配る社内システムの設計、開発
@@ -88,9 +88,9 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 - **業務内容**
   - システムの設計、Design Doc への落とし込み
   - Terraform を使ったインフラ構成管理
-  - Bolt を使った Slack App の開発
+  - Bolt, TypeScript を使った Slack App の開発
 
-エンジニア社員が自由に使える GCP のサンドボックスプロジェクトを配布する社内システムの新規開発をリードしました。具体的には、技術選定、アーキテクチャ設計、ドキュメント作成、タスクの切り分けとアサインなどを行いました。
+エンジニア社員が自由に使える GCP のサンドボックスプロジェクトを配布する社内システムの新規開発をリードしました。具体的には、技術選定、アーキテクチャ設計、ドキュメント作成、ロードマップ策定などを行い、実装もメインで行いました。
 
 個々のプロジェクトでは、予算制限として 10,000 円のハードリミットを設け、超過すると追加課金を防ぐような構成管理を Terraform を用いて行いました。
 
@@ -130,9 +130,11 @@ Node.js, Vite, Docker, nginx, Git, GitHub
   - 開発・本番環境への Docker 導入、インフラ整備
   - 社内勉強会の企画、発表
 
-基本的に人が足りていなかったため、チーム内でバックエンドやモバイルなどで明確に役割を区切るのではなく、適宜必要な知識を勉強して開発していきました。
+基本的に人が足りていなかったため、チーム内でバックエンドやモバイルなどで明確に役割を区切るのではなく、適宜必要な知識を補いながら開発していきました。
 
-途中の仕様変更で本番環境への Docker 導入が必要となった際、当時チームに Docker の本番環境での運用経験のあるメンバーがいなかったため私が一人で導入を行いました。導入後には社内で勉強会を主催しました。
+当初チャット機能は REST API サーバーを使用し、ポーリングでメッセージを取得する予定でしたが、急遽メッセージのリアルタイム更新が求められるようになり、WebSocket の導入が必要となりました。その設計~開発を私 1 人で行いました。
+
+また、本番環境への Docker 導入が必要となった際、当時チームに Docker の本番環境での運用経験のあるメンバーがいなかったため私が一人で導入を行いました。導入後には社内で勉強会を主催しました。
 
 # 業務外活動
 
