@@ -31,21 +31,49 @@
 
 # 技術スタック
 
-## プログラミング言語（得意な順）
+## プログラミング言語
 
-TypeScript, JavaScript(ES2015+), Swift, Kotlin
+業務で使用したことのある言語
+
+- TypeScript, JavaScript(ES2015+): 4 年、業務で即戦力になれる
+- Swift: 1 年、基本的な機能の実装が出来る
+- Kotlin: 1 年、基本的な機能の実装が出来る
+
+個人開発などで使用したことのある言語
+
+- Python: 学生時代に 1 年、基本的なプログラミングが出来る
 
 ## フレームワーク、ライブラリ
 
-React, Next.js, Vitest, Jest, Express, Electron
+業務で使用したことのあるもの
+
+- React: 4 年、業務で即戦力になれる
+  - Recoil, Tanstack Query, Tanstack Router, Chakra UI, styled-components
+  - Vite, Webpack
+  - Vitest, Jest
+- Express, Electron: 1 年、業務で使用出来る
+
+個人開発などで使用したことのあるもの
 
 ## インフラ
 
-Firebase（Firestore, Firebase Functions, Firebase Authentication）, GCP（Cloud Run, Cloud Functions, Cloud Tasks, BiqQuery）, MongoDB
+- Firebase: 2 年、業務で即戦力になれる
+  - Firestore, Firebase Functions, Firebase Authentication
+- GCP: 2 年、業務で使用出来る
+  - Cloud Run, Cloud Functions, Cloud Tasks, BiqQuery, Pub/Sub,
+- MongoDB: 1 年、使用したことがある程度
 
 ## その他
 
-Node.js, Vite, Docker, nginx, Git, GitHub
+業務で使用したことのあるもの
+
+- Node.js: 4 年、業務で即戦力になれる
+- Deno: 2 年、業務で使用出来る
+- Docker: 2 年、業務で使用出来る
+  - キャッシュを意識した Dockerfile が書ける
+- Terraform: 1 年、業務で使用出来る
+- nginx: 使用したことがある
+- Git, GitHub: 4 年、日常的に使用している
 
 # 言語
 
@@ -78,6 +106,13 @@ Node.js, Vite, Docker, nginx, Git, GitHub
 
 フロントエンド開発においては、フォームには 200 を超える入力項目があったため、パフォーマンスの最適化や途中保存機能、フォーム内のナビゲーションといったユーザー体験の向上が大きな課題となりましたが、最適なフックの実装やメモ化を用いて可能な限り最適化を行いながら開発しました。
 
+フロントエンド、バックエンド開発の他に、特に Firebase Emulator を使ったローカル開発環境とテスト基盤の構築を私一人で行いました。Firebase のメリットの１つとして、Firebase Emulator を使ったローカル開発、テストのしやすさがあるため、それをフルに利用しました。
+
+外部 API のモックも用意して完全にローカルに閉じた開発環境を用意することも考えましたが、動作確認がむしろしづらくなると判断して外部の API についてはそのまま利用することにしました。
+
+テストについては、Firebase Emulator と、Firebase 公式のテスト用パッケージを利用し、モックを極力使わず本物の環境に近い状態でテストを実行できるようにしました。
+具体的な方法を後に zenn の記事として投稿しました: https://zenn.dev/terass_dev/articles/firebase-functions-test
+
 ### GCP のサンドボックスプロジェクトを社員に配る社内システムの設計、開発
 
 - チーム規模: 2 人（エンジニア 2）
@@ -89,12 +124,15 @@ Node.js, Vite, Docker, nginx, Git, GitHub
   - システムの設計、Design Doc への落とし込み
   - Terraform を使ったインフラ構成管理
   - Bolt, TypeScript を使った Slack App の開発
+  - CI/CD パイプラインの構築
 
-エンジニア社員が自由に使える GCP のサンドボックスプロジェクトを配布する社内システムの新規開発をリードしました。具体的には、技術選定、アーキテクチャ設計、ドキュメント作成、ロードマップ策定などを行い、実装もメインで行いました。
+エンジニア社員が自由に使える GCP のサンドボックスプロジェクトを配布する社内システムの新規開発をリードしました。具体的には、技術選定、アーキテクチャ設計、CI/CD 構築、ドキュメント作成、ロードマップ策定などを行い、実装もメインで行いました。
 
 個々のプロジェクトでは、予算制限として 10,000 円のハードリミットを設け、超過すると追加課金を防ぐような構成管理を Terraform を用いて行いました。
 
-また、ユーザーインターフェースとして Slack アプリを開発し、管理者が手動でプロジェクトを作成する手間を省きました。
+また、ユーザーインターフェースとして Slack App を開発し、管理者が手動でプロジェクトを作成する手間を省きました（Slack App が Github Action をトリガーし、terraform apply が実行される形）。
+
+Slack App は Docker コンテナとして Cloud Run にデプロイしました。修正が入った場合にテスト、コンテナのビルド、デプロイが走るように、CI/CD パイプラインを構築しました。
 
 ### 不動産エージェントと不動産売買をしたいカスタマーをマッチングするサービス[TERASS Offer](https://offer.terass.com/)の保守・新機能開発
 
